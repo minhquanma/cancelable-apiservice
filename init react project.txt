@@ -1,0 +1,17 @@
+npm init -y
+npm i -D parcel-bundler 
+npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties
+
+.babelrc
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
+
+npm i react react-dom @babel/polyfill
+
+
+SETUP TYPESCRIPT
+npm i -g typescript (if not exist)
+npm i -D @types/react @types/react-dom 
